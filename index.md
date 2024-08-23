@@ -4,66 +4,55 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Heartland SEO - Expert SEO Consulting</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #2c3e50;
-            color: #ecf0f1;
-        }
-        header {
-            background-color: #f39c12;
-            padding: 20px;
-            text-align: center;
-        }
-        .cta-button {
-            background-color: #2ecc71;
-            color: white;
-            padding: 10px 20px;
-            text-decoration: none;
-            display: inline-block;
-            margin: 20px 0;
-            font-weight: bold;
-        }
-        .main-content {
-            max-width: 800px;
-            margin: 0 auto;
-            padding: 20px;
-        }
-        .featured-logos {
-            display: flex;
-            justify-content: space-around;
-            margin-top: 40px;
-        }
-        .featured-logos img {
-            max-width: 100px;
-            filter: grayscale(100%);
-        }
-    </style>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js" defer></script>
 </head>
-<body>
-    <header>
-        <h1>Heartland SEO</h1>
-        <p>Get your copy NOW</p>
-        <a href="#" class="cta-button">DOWNLOAD NOW</a>
+<body class="bg-gray-900 text-white">
+    <header class="bg-yellow-500 py-4">
+        <div class="container mx-auto flex justify-between items-center px-4">
+            <h1 class="text-2xl font-bold">Heartland SEO</h1>
+            <nav>
+                <a href="#" class="mx-2 hover:underline">Home</a>
+                <a href="#" class="mx-2 hover:underline">Services</a>
+                <a href="#" class="mx-2 hover:underline">About</a>
+                <a href="#" class="mx-2 hover:underline">Contact</a>
+            </nav>
+        </div>
     </header>
 
-    <div class="main-content">
-        <h2>Free Download: How to Get Your First 1000 Email Subscribers (and Beyond)</h2>
-        <p>Your FREE Blueprint for Rapidly Growing Your List - Even If You've Struggled To Get Opt-ins In The Past!</p>
-        
-        <a href="#" class="cta-button">DOWNLOAD NOW</a>
-        
-        <p>We guarantee 100% privacy. Your information will not be shared.</p>
+    <main class="container mx-auto px-4 py-8">
+        <section class="text-center">
+            <h2 class="text-4xl font-bold mb-4">Free Download: Get Your First 1000 Email Subscribers</h2>
+            <p class="text-xl mb-8">Your blueprint for rapidly growing your list - even if you've struggled in the past!</p>
+            <a href="#" class="bg-green-500 text-white font-bold py-2 px-4 rounded-full text-lg hover:bg-green-600 transition duration-300">DOWNLOAD NOW</a>
+            <p class="mt-4 text-sm">We guarantee 100% privacy. Your information will not be shared.</p>
+        </section>
 
-        <div class="featured-logos">
-            <img src="path_to_forbes_logo.png" alt="Forbes">
-            <img src="path_to_entrepreneur_logo.png" alt="Entrepreneur">
-            <img src="path_to_inc_logo.png" alt="Inc.">
-            <!-- Add more featured publication logos -->
+        <section class="mt-16" x-data="{ timeLeft: 3600 }" x-init="setInterval(() => timeLeft--, 1000)">
+            <div class="text-center">
+                <h3 class="text-2xl font-bold mb-4">Limited Time Offer</h3>
+                <div class="text-4xl font-bold">
+                    <span x-text="Math.floor(timeLeft / 3600)"></span>:
+                    <span x-text="Math.floor((timeLeft % 3600) / 60)"></span>:
+                    <span x-text="timeLeft % 60"></span>
+                </div>
+            </div>
+        </section>
+
+        <section class="mt-16">
+            <h3 class="text-2xl font-bold text-center mb-8">Featured In</h3>
+            <div class="flex justify-around items-center">
+                <img src="path_to_forbes_logo.png" alt="Forbes" class="h-12 opacity-50">
+                <img src="path_to_entrepreneur_logo.png" alt="Entrepreneur" class="h-12 opacity-50">
+                <img src="path_to_inc_logo.png" alt="Inc." class="h-12 opacity-50">
+            </div>
+        </section>
+    </main>
+
+    <footer class="bg-gray-800 py-4 mt-16">
+        <div class="container mx-auto text-center">
+            <p>&copy; 2023 Heartland SEO. All rights reserved.</p>
         </div>
-    </div>
+    </footer>
 </body>
 </html>
-
