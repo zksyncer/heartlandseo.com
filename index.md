@@ -3,90 +3,67 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Heartland SEO - Local SEO Services for Missouri and Kansas</title>
+    <title>Heartland SEO - Expert SEO Consulting</title>
     <style>
         body {
             font-family: Arial, sans-serif;
-            line-height: 1.6;
             margin: 0;
             padding: 0;
-            color: #333;
+            background-color: #2c3e50;
+            color: #ecf0f1;
         }
-        .header {
-            background: linear-gradient(to right, #0066cc, #00cc66);
-            color: white;
+        header {
+            background-color: #f39c12;
             padding: 20px;
             text-align: center;
         }
-        .content {
+        .cta-button {
+            background-color: #2ecc71;
+            color: white;
+            padding: 10px 20px;
+            text-decoration: none;
+            display: inline-block;
+            margin: 20px 0;
+            font-weight: bold;
+        }
+        .main-content {
             max-width: 800px;
             margin: 0 auto;
             padding: 20px;
         }
-        .btn {
-            display: inline-block;
-            padding: 10px 20px;
-            margin: 10px 5px;
-            background-color: #007bff;
-            color: white;
-            text-align: center;
-            text-decoration: none;
-            border-radius: 5px;
+        .featured-logos {
+            display: flex;
+            justify-content: space-around;
+            margin-top: 40px;
         }
-        .services, .why-choose-us {
-            margin-top: 20px;
-        }
-        .counter {
-            text-align: center;
-            margin-top: 20px;
-            font-size: 0.9em;
-            color: #666;
+        .featured-logos img {
+            max-width: 100px;
+            filter: grayscale(100%);
         }
     </style>
 </head>
 <body>
-    <div class="header">
+    <header>
         <h1>Heartland SEO</h1>
-        <p>Local SEO Services for Missouri and Kansas Businesses</p>
-    </div>
-    
-    <div class="content">
-        <h2>Welcome to Heartland SEO</h2>
-        <p>Boost your local business visibility with our expert SEO services tailored for Missouri and Kansas.</p>
-        
-        <div class="services">
-            <h3>Our Services</h3>
-            <ul>
-                <li>Google Business Profile Optimization</li>
-                <li>Local SEO Strategy</li>
-                <li>Content Creation for Local Markets</li>
-                <li>Citation Building and Management</li>
-            </ul>
-        </div>
-        
-        <div class="why-choose-us">
-            <h3>Why Choose Heartland SEO?</h3>
-            <ol>
-                <li>Local Expertise: We know Missouri and Kansas markets inside out</li>
-                <li>Proven Results: Increased visibility for 100+ local businesses</li>
-                <li>Tailored Strategies: Custom approach for each city and business type</li>
-            </ol>
-        </div>
-        
-        <a href="packages.html" class="btn">View Our Packages</a>
-        <a href="mailto:info@heartlandseo.com" class="btn">Contact Us</a>
-        <a href="cities.html" class="btn">Find Your City</a>
-        
-        <div class="counter">
-            Page Views: <span id="count">1</span>
-        </div>
-    </div>
+        <p>Get your copy NOW</p>
+        <a href="#" class="cta-button">DOWNLOAD NOW</a>
+    </header>
 
-    <script>
-        let count = localStorage.getItem('pageViews') || 0;
-        count++;
-        document.getElementById('count').textContent = count;
-        localStorage.setItem('pageViews', count);
-    </script>
+    <div class="main-content">
+        <h2>Free Download: How to Get Your First 1000 Email Subscribers (and Beyond)</h2>
+        <p>Your FREE Blueprint for Rapidly Growing Your List - Even If You've Struggled To Get Opt-ins In The Past!</p>
+        
+        <a href="#" class="cta-button">DOWNLOAD NOW</a>
+        
+        <p>We guarantee 100% privacy. Your information will not be shared.</p>
+
+        <div class="featured-logos">
+            <img src="path_to_forbes_logo.png" alt="Forbes">
+            <img src="path_to_entrepreneur_logo.png" alt="Entrepreneur">
+            <img src="path_to_inc_logo.png" alt="Inc.">
+            <!-- Add more featured publication logos -->
+        </div>
+    </div>
 </body>
 </html>
+
