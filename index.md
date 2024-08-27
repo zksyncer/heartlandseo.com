@@ -1,10 +1,10 @@
-# Your Local SEO & Google Business Profile Expert
+# Your Local SEO & Google Business Profile Expert for Kansas City Area
 
 ## Dominate Local Search with Expert Google Business Profile Optimization
 
-Are local customers struggling to find your business online? HeartlandSEO specializes in creating and optimizing Google Business Profiles to boost your local visibility and attract more nearby customers.
+Are customers in the Kansas City metro area struggling to find your business online? HeartlandSEO specializes in creating and optimizing Google Business Profiles to boost your local visibility and attract more nearby customers.
 
-### Our Local SEO Services Include:
+### Our Local SEO Services For Kansas City Area Businesses Include:
 
 - Google Business Profile Creation and Verification
 - Profile Optimization for Maximum Visibility
@@ -15,7 +15,7 @@ Are local customers struggling to find your business online? HeartlandSEO specia
 
 ### Why Choose HeartlandSEO Services?
 
-- Focused Expertise in Google Business Profile Optimization
+- Focused Expertise in Google Business Profile Optimization for the Kansas City Metro Market
 - Proven Track Record of Improving Local Search Rankings
 - Customized Strategies for Your Specific Local Market
 - Transparent Reporting on Local Search Performance
@@ -23,9 +23,9 @@ Are local customers struggling to find your business online? HeartlandSEO specia
 
 ### How We Can Help Your Local Business:
 
-1. Create and verify your Google Business Profile
-2. Optimize your profile with accurate and compelling information
-3. Implement local keywords to improve search relevance
+1. Create and verify your Google Business Profile to stand out in Kansas City local searches
+2. Optimize your profile with accurate and compelling information tailored to KC metro area customers
+3. Implement local keywords to improve search relevance for Kansas City, Overland Park, Lenexa, and Leawood
 4. Manage and respond to customer reviews to build trust
 5. Ensure consistent business information across online directories
 6. Regularly update your profile with posts, offers, and events
@@ -33,8 +33,8 @@ Are local customers struggling to find your business online? HeartlandSEO specia
 ## Local SEO Packages
 
 ### Starter Package
-- Google Business Profile Creation
-- Basic Profile Optimization
+- Google Business Profile Creation for one Kansas City area location
+- Basic Profile Optimization for local KC searches
 - 1 Month of Management
 - **Price: $499**
 
@@ -42,7 +42,7 @@ Are local customers struggling to find your business online? HeartlandSEO specia
 
 ### Growth Package
 - Everything in Starter
-- Advanced Profile Optimization
+- Advanced Profile Optimization for multiple KC area locations
 - 3 Months of Management
 - Monthly Performance Reports
 - **Price: $899**
@@ -51,19 +51,18 @@ Are local customers struggling to find your business online? HeartlandSEO specia
 
 ### Premium Package
 - Everything in Growth
-- 6 Months of Management
-- Local Citation Building
+- 6 Months of Management across all your metro KC locations
+- Local Citation Building in top Kansas City business directories 
 - Review Management Strategy
 - **Price: $1499**
 
 [Buy Now](#contact) {: .button}
 
-## Client Testimonials
+## Client Testimonials From Kansas City Area Businesses
 
-> "HeartlandSEO's services transformed our online presence. Our Google Business Profile now ranks at the top of Google Maps!" - Heather McCoy - Healing Within KC
+> "HeartlandSEO's services transformed our online presence. Our Google Business Profile now ranks at the top of Google Maps!" - Heather - Healing Within KC
 
-> "We've seen a 200% increase in website traffic from local searches since working with HeartlandSEO." - John Smith, Plumbing Services
-
+> "We've seen a 200% increase in website traffic from local searches since working with HeartlandSEO." - Hayley, Quantum Coaching LLC
 ## Latest Local SEO Tips
 
 ### 5 Ways to Optimize Your Google Business Profile
