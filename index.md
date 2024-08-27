@@ -1,4 +1,4 @@
-# Your Local SEO & Google Business Profile Expert for Kansas City Area
+# Your Local SEO & Google Business Profile Expert for Metro Kansas City 
 
 ## Dominate Local Search with Expert Google Business Profile Optimization
 
