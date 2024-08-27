@@ -1,4 +1,4 @@
-# HeartlandSEO - Your Local SEO & Google Business Profile Expert
+# Your Local SEO & Google Business Profile Expert
 
 ## Dominate Local Search with Expert Google Business Profile Optimization
 
