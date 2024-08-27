@@ -1,58 +1,87 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Heartland SEO - Expert SEO Consulting</title>
-    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
-    <script src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js" defer></script>
-</head>
-<body class="bg-gray-900 text-white">
-    <header class="bg-yellow-500 py-4">
-        <div class="container mx-auto flex justify-between items-center px-4">
-            <h1 class="text-2xl font-bold">Heartland SEO</h1>
-            <nav>
-                <a href="#" class="mx-2 hover:underline">Home</a>
-                <a href="#" class="mx-2 hover:underline">Services</a>
-                <a href="#" class="mx-2 hover:underline">About</a>
-                <a href="#" class="mx-2 hover:underline">Contact</a>
-            </nav>
-        </div>
-    </header>
+# HeartlandSEO - Your Local SEO & Google Business Profile Expert
 
-    <main class="container mx-auto px-4 py-8">
-        <section class="text-center">
-            <h2 class="text-4xl font-bold mb-4">Free Download: Get Your First 1000 Email Subscribers</h2>
-            <p class="text-xl mb-8">Your blueprint for rapidly growing your list - even if you've struggled in the past!</p>
-            <a href="#" class="bg-green-500 text-white font-bold py-2 px-4 rounded-full text-lg hover:bg-green-600 transition duration-300">DOWNLOAD NOW</a>
-            <p class="mt-4 text-sm">We guarantee 100% privacy. Your information will not be shared.</p>
-        </section>
+## Dominate Local Search with Expert Google Business Profile Optimization
 
-        <section class="mt-16" x-data="{ timeLeft: 3600 }" x-init="setInterval(() => timeLeft--, 1000)">
-            <div class="text-center">
-                <h3 class="text-2xl font-bold mb-4">Limited Time Offer</h3>
-                <div class="text-4xl font-bold">
-                    <span x-text="Math.floor(timeLeft / 3600)"></span>:
-                    <span x-text="Math.floor((timeLeft % 3600) / 60)"></span>:
-                    <span x-text="timeLeft % 60"></span>
-                </div>
-            </div>
-        </section>
+Are local customers struggling to find your business online? HeartlandSEO specializes in creating and optimizing Google Business Profiles to boost your local visibility and attract more nearby customers.
 
-        <section class="mt-16">
-            <h3 class="text-2xl font-bold text-center mb-8">Featured In</h3>
-            <div class="flex justify-around items-center">
-                <img src="path_to_forbes_logo.png" alt="Forbes" class="h-12 opacity-50">
-                <img src="path_to_entrepreneur_logo.png" alt="Entrepreneur" class="h-12 opacity-50">
-                <img src="path_to_inc_logo.png" alt="Inc." class="h-12 opacity-50">
-            </div>
-        </section>
-    </main>
+### Our Local SEO Services Include:
 
-    <footer class="bg-gray-800 py-4 mt-16">
-        <div class="container mx-auto text-center">
-            <p>&copy; 2023 Heartland SEO. All rights reserved.</p>
-        </div>
-    </footer>
-</body>
-</html>
+- Google Business Profile Creation and Verification
+- Profile Optimization for Maximum Visibility
+- Local Keyword Research and Implementation
+- Review Management and Response Strategies
+- Local Citation Building and Cleanup
+- Ongoing Profile Management and Updates
+
+### Why Choose HeartlandSEO Services?
+
+- Focused Expertise in Google Business Profile Optimization
+- Proven Track Record of Improving Local Search Rankings
+- Customized Strategies for Your Specific Local Market
+- Transparent Reporting on Local Search Performance
+- Continuous Adaptation to Google's Local Search Algorithm Updates
+
+### How We Can Help Your Local Business:
+
+1. Create and verify your Google Business Profile
+2. Optimize your profile with accurate and compelling information
+3. Implement local keywords to improve search relevance
+4. Manage and respond to customer reviews to build trust
+5. Ensure consistent business information across online directories
+6. Regularly update your profile with posts, offers, and events
+
+## Local SEO Packages
+
+### Starter Package
+- Google Business Profile Creation
+- Basic Profile Optimization
+- 1 Month of Management
+- **Price: $499**
+
+[Buy Now](#contact) {: .button}
+
+### Growth Package
+- Everything in Starter
+- Advanced Profile Optimization
+- 3 Months of Management
+- Monthly Performance Reports
+- **Price: $899**
+
+[Buy Now](#contact) {: .button}
+
+### Premium Package
+- Everything in Growth
+- 6 Months of Management
+- Local Citation Building
+- Review Management Strategy
+- **Price: $1499**
+
+[Buy Now](#contact) {: .button}
+
+## Client Testimonials
+
+> "HeartlandSEO's services transformed our online presence. Our Google Business Profile now ranks at the top of Google Maps!" - Heather McCoy - Healing Within KC
+
+> "We've seen a 200% increase in website traffic from local searches since working with HeartlandSEO." - John Smith, Plumbing Services
+
+## Latest Local SEO Tips
+
+### 5 Ways to Optimize Your Google Business Profile
+Learn the top strategies to make your Google Business Profile stand out in local search results...
+
+[Read More](#)
+
+### The Importance of Reviews for Local SEO
+Discover how customer reviews can significantly boost your local search rankings...
+
+[Read More](#)
+
+## Contact Me
+
+Ready to boost your local online presence? Contact me for a free Local SEO consultation!
+
+[Contact Us](mailto:johnalewine@gmail.com) {: .button}
+
+---
+
+© 2024 HeartlandSEO.com - Local SEO Experts. All rights reserved.
