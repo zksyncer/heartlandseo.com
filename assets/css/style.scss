@@ -3,6 +3,20 @@
 
 @import "{{ site.theme }}";
 
+/* Global Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding-top: 80px; /* Increased to account for larger header */
+  line-height: 1.6;
+}
+
+.wrapper {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
 /* Header Styles */
 header {
   background-color: #fff;
@@ -26,7 +40,8 @@ header .wrapper {
 }
 
 .logo {
-  height: 10px;
+  height: 50px; /* Increased from 10px to 50px */
+  width: auto; /* Maintain aspect ratio */
   margin-right: 10px;
 }
 
@@ -42,7 +57,7 @@ nav {
 }
 
 nav a {
-  margin-left: 15px;
+  margin-left: 20px;
   text-decoration: none;
   color: #333;
   font-weight: 600;
@@ -61,16 +76,24 @@ nav a {
   background-color: #ffc82e;
 }
 
-/* Adjust main content to account for fixed header */
-body {
-  padding-top: 70px; /* Adjust this value based on your header height */
+/* Main Content Styles */
+main {
+  padding: 20px 0;
 }
 
 /* Media query for mobile responsiveness */
 @media (max-width: 768px) {
+  body {
+    padding-top: 120px; /* Increased for mobile layout */
+  }
+
   header .wrapper {
     flex-direction: column;
     padding: 10px;
+  }
+
+  .logo-container {
+    margin-bottom: 10px;
   }
 
   nav {
