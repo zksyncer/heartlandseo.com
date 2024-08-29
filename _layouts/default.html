@@ -1,34 +1,14 @@
-<!DOCTYPE html>
-<html lang="{{ site.lang | default: "en-US" }}">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{{ site.title }}</title>
-    <link rel="stylesheet" href="{{ "/assets/css/style.css?v=" | append: site.github.build_revision | relative_url }}">
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
-</head>
-<body>
-    <header>
-        <div class="wrapper">
-            <div class="logo">
-                <img src="{{ "/assets/images/Heartland SEO.jpeg" | relative_url }}" alt="HeartlandSEO Logo">
-                <span>HeartlandSEO</span>
-            </div>
-            <nav>
-                <a href="#services">Services</a>
-                <a href="#why-us">Why Us</a>
-                <a href="#contact">Contact</a>
-                <a href="#contact" class="cta-button">Get Started</a>
-            </nav>
-        </div>
-    </header>
-    <main>
-        {{ content }}
-    </main>
-    <footer>
-        <div class="wrapper">
-            <p>&copy; 2024 HeartlandSEO. All rights reserved.</p>
-        </div>
-    </footer>
-</body>
-</html>
+<header>
+  <div class="wrapper">
+    <div class="logo-container">
+      <img src="{{ '/assets/images/Heartland SEO.jpeg' | relative_url }}" alt="HeartlandSEO Logo" class="logo">
+      <span class="company-name">HeartlandSEO</span>
+    </div>
+    <nav>
+      <a href="{{ '/services' | relative_url }}">Services</a>
+      <a href="{{ '/why-us' | relative_url }}">Why Us</a>
+      <a href="{{ '/contact' | relative_url }}">Contact</a>
+      <a href="{{ '/contact' | relative_url }}" class="cta-button">Get Started</a>
+    </nav>
+  </div>
+</header>
