@@ -1,14 +1,35 @@
-<header>
-  <div class="wrapper">
-    <div class="logo-container">
-      <img src="{{ '/assets/images/Heartland SEO.jpeg' | relative_url }}" alt="HeartlandSEO Logo" class="logo">
-      <span class="company-name">HeartlandSEO</span>
-    </div>
-    <nav>
-      <a href="{{ '/services' | relative_url }}">Services</a>
-      <a href="{{ '/why-us' | relative_url }}">Why Us</a>
-      <a href="{{ '/contact' | relative_url }}">Contact</a>
-      <a href="{{ '/contact' | relative_url }}" class="cta-button">Get Started</a>
-    </nav>
-  </div>
-</header>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ site.title }}</title>
+    <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+</head>
+<body>
+    <header>
+        <div class="wrapper">
+            <div class="logo-container">
+                <img src="{{ '/assets/images/Heartland SEO.jpeg' | relative_url }}" alt="HeartlandSEO Logo" class="logo">
+                <span class="company-name">HeartlandSEO</span>
+            </div>
+            <nav>
+                <a href="{{ '/services' | relative_url }}">Services</a>
+                <a href="{{ '/why-us' | relative_url }}">Why Us</a>
+                <a href="{{ '/contact' | relative_url }}">Contact</a>
+                <a href="{{ '/contact' | relative_url }}" class="cta-button">Get Started</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        {{ content }}
+    </main>
+
+    <footer>
+        <div class="wrapper">
+            <p>&copy; 2024 HeartlandSEO. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
