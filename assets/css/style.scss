@@ -3,32 +3,35 @@
 
 @import "{{ site.theme }}";
 
-/* Center the header text */
+body {
+  padding-top: 100px; /* Adjust based on your header height */
+}
+
 header {
-  text-align: center;
-  padding-bottom: 20px;
-  border-bottom: 1px solid #e5e5e5;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: #fff;
+  z-index: 1000;
+  padding: 20px 0;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
 }
 
 header h1 {
-  text-align: center;
-  margin-bottom: 10px;
-}
-
-header h1 a {
-  color: #3498db;  /* You can change this color to match your brand */
-  text-decoration: none;
+  margin: 0;
+  font-size: 2.5em;
+  color: #3498db;
 }
 
 header p {
-  text-align: center;
-  color: #777;
+  margin: 5px 0 0;
+  color: #7f8c8d;
 }
 
-/* Adjust layout for single column */
 .wrapper {
-  width: 100%;
-  max-width: 960px;
+  width: 90%;
+  max-width: 1200px;
   margin: 0 auto;
   padding: 0 20px;
 }
@@ -36,30 +39,71 @@ header p {
 section {
   width: 100%;
   float: none;
-  border-bottom: 1px solid #e5e5e5;
-  padding-bottom: 20px;
+  padding: 20px 0;
+}
+
+/* Styling to make the page more lively */
+h2 {
+  color: #2c3e50;
+  border-bottom: 2px solid #3498db;
+  padding-bottom: 10px;
+}
+
+h3 {
+  color: #34495e;
+}
+
+.service-card, .package-card, .testimonial-card {
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease;
+}
+
+.service-card:hover, .package-card:hover {
+  transform: translateY(-5px);
+}
+
+.cta-button {
+  display: inline-block;
+  background-color: #3498db;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+  background-color: #2980b9;
+}
+
+.testimonial-card {
+  font-style: italic;
+  position: relative;
+}
+
+.testimonial-card::before {
+  content: '"';
+  font-size: 4em;
+  color: #bdc3c7;
+  position: absolute;
+  top: -10px;
+  left: 10px;
 }
 
 @media print, screen and (max-width: 960px) {
-  div.wrapper {
-    width: auto;
-    margin: 0;
-  }
-  
-  header, section {
-    float: none;
-    position: static;
-    width: auto;
+  body {
+    padding-top: 80px; /* Adjust for smaller screens */
   }
   
   header {
-    padding-right: 0;
+    padding: 10px 0;
   }
   
-  section {
-    border: 1px solid #e5e5e5;
-    border-width: 1px 0;
-    padding: 20px 0;
-    margin: 0 0 20px;
+  header h1 {
+    font-size: 2em;
   }
 }
