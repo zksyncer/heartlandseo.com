@@ -7,6 +7,19 @@
   </div>
 </section>
 
+<section id="why-us" class="why-choose">
+  <div class="wrapper">
+    <h2>Why Choose HeartlandSEO?</h2>
+    <ul>
+      <li>Proven track record of improving local search rankings in KC, Overland Park, Lenexa, and Leawood</li>
+      <li>Customized strategies tailored to your specific local market in the Kansas City area</li>
+      <li>Transparent reporting on your local search performance</li>
+      <li>Continuous adaptation to Google's ever-changing local search algorithms</li>
+      <li>Deep understanding of Kansas City's business landscape and consumer behavior</li>
+    </ul>
+  </div>
+</section>
+
 ---
 
 <div class="hero">
