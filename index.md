@@ -1,3 +1,14 @@
+<section class="hero">
+  <div class="wrapper">
+    <h1>Kansas City SEO Company</h1>
+    <h2>Dominate Local Search with Expert Google Business Profile Optimization</h2>
+    <p>HeartlandSEO specializes in boosting your local visibility and attracting more nearby customers in Kansas City, Overland Park, Lenexa, and Leawood.</p>
+    <a href="#contact" class="cta-button">Contact Us to Learn More</a>
+  </div>
+</section>
+
+---
+
 <div class="hero">
     <h1>Kansas City SEO Company</h1>
     <p>Dominate Local Search with Expert Google Business Profile Optimization</p>
