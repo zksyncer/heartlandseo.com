@@ -17,9 +17,7 @@ header .wrapper {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 15px 20px;
-  max-width: 1200px;
-  margin: 0 auto;
+  padding: 10px 20px;
 }
 
 .logo-container {
@@ -28,7 +26,7 @@ header .wrapper {
 }
 
 .logo {
-  height: 40px;
+  height: 10px;
   margin-right: 10px;
 }
 
@@ -44,7 +42,7 @@ nav {
 }
 
 nav a {
-  margin-left: 20px;
+  margin-left: 15px;
   text-decoration: none;
   color: #333;
   font-weight: 600;
